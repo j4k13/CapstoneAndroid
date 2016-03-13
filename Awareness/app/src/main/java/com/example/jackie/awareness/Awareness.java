@@ -17,7 +17,7 @@ public class Awareness extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_awareness);
         WebView myAware = (WebView) findViewById(R.id.webview);
-        myAware.loadUrl("");
+        myAware.loadUrl("http://192.168.124.1/Capstone/awarefront.html");
     }
 
 }
